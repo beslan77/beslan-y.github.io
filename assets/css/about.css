@@ -1,0 +1,429 @@
+* {
+    text-align: center;
+    /*background: salmon;*/
+    color: whitesmoke;
+}
+#about-page1{background-color:#EA495F;}
+#skills-page2{background-color:#F4837D;}
+#contact-page3{background-color:#99B998;}
+
+.about-text{
+    width: 800px;
+    margin: 0 auto;
+    
+  position:absolute;
+    
+  top:50%;
+  left:50%;
+  padding:15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+    
+}
+.credits {
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.animate {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+   }
+    to {
+        margin-left: 0%;
+        width: 100%;
+   }
+}
+@-moz-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+   }
+    to {
+        margin-left: 0%;
+        width: 100%;
+   }
+}
+@-webkit-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+   }
+    to {
+        margin-left: 0%;
+        width: 100%;
+   }
+}
+.animatedTime1 {
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.animatedTime2 {
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+.animated {
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-moz-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+.fadeInLeft {
+    -moz-animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+@-moz-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+.fadeInRight {
+    -moz-animation-name: fadeInRight;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+@-moz-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+   }
+    100% {
+        opacity: 1;
+        transform: none;
+   }
+}
+.fadeInUp {
+    -moz-animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+.fadeIn {
+    -moz-animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+
+.tags {
+    color: #515152;
+    position: absolute;
+    left: 80px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+
+  
+  /* ====================================
+  Burger king
+  ==================================== */
+  
+  .open-overlay {
+    position: absolute;
+    right: 5rem;
+    top: 3.2rem;
+    z-index: 100;
+    width: 34px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .open-overlay span {
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .animate-top-bar {
+    -webkit-animation: animate-top-bar .6s linear 1 both;
+    animation: animate-top-bar .6s linear 1 both
+  }
+  
+  .animate-bottom-bar {
+    -webkit-animation: animate-bottom-bar .6s linear 1 both;
+    animation: animate-bottom-bar .6s linear 1 both
+  }
+  
+  .animate-middle-bar {
+    -webkit-animation: animate-middle-bar .6s linear 1 both;
+    animation: animate-middle-bar .6s linear 1 both
+  }
+  
+  .animate-out-top-bar {
+    -webkit-animation: animate-out-top-bar .6s linear 1 both;
+    animation: animate-out-top-bar .6s linear 1 both
+  }
+  
+  .animate-out-bottom-bar {
+    -webkit-animation: animate-out-bottom-bar .6s linear 1 both;
+    animation: animate-out-bottom-bar .6s linear 1 both
+  }
+  
+  .animate-out-middle-bar {
+    -webkit-animation: animate-out-middle-bar .6s linear 1 both;
+    animation: animate-out-middle-bar .6s linear 1 both
+  }
+  
+  
+  /* ====================================
+  Animation keyframes
+  ==================================== */
+  
+  @keyframes animate-top-bar {
+    0% {
+      background-color: #fff;
+    }
+    50% {
+      -webkit-transform: translateY(9px);
+      transform: translateY(9px)
+    }
+    80% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+      background-color: #fff
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      background-color: #29363B;
+    }
+  }
+  
+  @keyframes animate-bottom-bar {
+    0% {
+      background-color: #fff;
+    }
+    50% {
+      -webkit-transform: translateY(-9px);
+      transform: translateY(-9px)
+    }
+    80% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+      background-color: #fff;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      background-color: #29363B;
+    }
+  }
+  
+  @keyframes animate-middle-bar {
+    0% {
+      background-color: #fff;
+    }
+    80% {
+      background-color: #fff;
+    }
+    100% {
+      background-color: #29363B;
+    }
+  }
+  
+  @keyframes animate-out-top-bar {
+    0% {
+      background-color: #29363B
+    }
+    50% {
+      -webkit-transform: translateY(9px);
+      transform: translateY(9px)
+    }
+    80% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+      background-color: #29363B
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      background-color: #FFF;
+    }
+  }
+  
+  @keyframes animate-out-bottom-bar {
+    0% {
+      background-color: #29363B
+    }
+    50% {
+      -webkit-transform: translateY(-9px);
+      transform: translateY(-9px)
+    }
+    80% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+      background-color: #29363B;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      background-color: #FFF;
+    }
+  }
+  
+  @keyframes animate-out-middle-bar {
+    0% {
+      background-color: #29363B
+    }
+    80% {
+      background-color: #29363B;
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
+  
+  
+  @media (max-width: 640px) {
+    nav ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    nav ul li {
+      height: 20%;
+    }
+    nav ul li a {
+      font-size: 11px;
+    }
+    nav li a:after {
+      font-size: 0.6rem;
+      bottom: -25px;
+    }
+    nav li a:hover:after {
+      transform: translateY(0);
+    }
+    .open-overlay {
+      right: 1rem;
+    }
+    nav li a:before {
+      width: 25px;
+    }
+  }
+  /*#page2 {
+    background-color: #F4837D;
+    }*/
+
+.skills-bar {
+display: flex;
+justify-content: space-around;
+}
+
+.skills-bar li{
+    margin: 10px;
+
+    }
